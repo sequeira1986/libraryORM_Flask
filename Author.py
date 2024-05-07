@@ -1,7 +1,4 @@
-
 from main import db
-
-
 
 
 class Author(db.Model):

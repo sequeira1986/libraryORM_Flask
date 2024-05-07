@@ -55,9 +55,11 @@ def addMember():
         )
         db.session.add(new_member)
         db.session.commit()
+
         return jsonify({"message": "Member added successfully",
                         "member_id": new_member.member_id,
-                        "member_details": new_member.to_dict()}), 201
+                        "member_details": new_member.to_dict()
+                        }), 201
 
 
 if __name__ == "__main__":

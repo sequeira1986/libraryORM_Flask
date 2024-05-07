@@ -26,4 +26,3 @@ class Members(db.Model):
         }
 
 
-
