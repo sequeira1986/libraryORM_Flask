@@ -1,4 +1,4 @@
-import main as db
+from main import db
 
 
 class Genres(db.Model):
